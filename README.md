@@ -6,13 +6,34 @@
 
 <p align="center">
  <img src="https://img.shields.io/badge/platform-iOS-9cf.svg">
- 
- <p align="center">협업을 위한 어플리케이션</p>
+ <img src="https://img.shields.io/badge/Swift-5.2-orange">
+ <p align="center">협업을 위한 이슈 관리 어플리케이션</p>
+</p>
+
+<p align="center">
+<img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/full_darkmode.gif" width="240px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/full_lightmode.gif" width="240px"> 
 </p>
 
 <br>
 
-## Members
+###상세 화면
+
+<p align="center">
+<img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-1.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-2.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-2-2.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-3.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-4.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-4-2.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-5.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-6.png" width="200px"> <img src="https://github.com/corykim0829/issue-tracker-02/blob/dev/screenshots/screen-7.png" width="200px">
+</p>
+<br>
+
+### TroubleShooting
+
+#### Dynamic UICollectionViewCell
+
+이슈를 표시하는 UICollectionViewCell에 레이블의 개수가 많아지면 동적으로 셀의 높이를 잡아줄 수 있도록 구현하였습니다. DummyCell을 만들어서 높이를 계산해주었고 블로그에 어떻게 접근하여 문제를 해결했는지 정리하였습니다. 
+
+[UICollectionViewCell Dynamic Height, 동적 높이 구현하기 with Dummy Cell](https://corykim0829.github.io/ios/UICollectionViewCell-dynamic-height/#)
+
+<br>
+
+### Members
 
 - BE 
     - [🐦 Dan](https://github.com/Hyune-c)
@@ -22,7 +43,7 @@
 
 <br>
 
-## Commits
+### Commits
 
 ```
 [iOS] feat :rocket: index page 구현
@@ -45,7 +66,7 @@ close, fix, resolved: #2 (optional)
 
 <br>
 
-## Branches
+### Branches
 
 - dev : default branch 
     - be
@@ -55,7 +76,7 @@ close, fix, resolved: #2 (optional)
 
 <br>
 
-## Issues
+### Issues
 
 ```
 이슈 제목
@@ -68,7 +89,7 @@ ex) 카드 추가 (라벨 BE, 프로젝트 추가)
 
 <br>
 
-## Documents
+### Documents
 
 - [Swagger](http://52.79.81.75:8080/swagger-ui.html)
 - [iOS Feature Requirements](https://docs.google.com/spreadsheets/d/1PS3qxyUZ9dthyNLMbDasInC9mER7WPdZ7khVixbp6ng/edit#gid=0)
