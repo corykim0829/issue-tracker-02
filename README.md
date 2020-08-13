@@ -5,8 +5,7 @@
 <p align="center">
 
 <p align="center">
- <img src="https://img.shields.io/badge/platform-iOS-9cf.svg">
- <img src="https://img.shields.io/badge/Swift-5.2-orange">
+ <img src="https://img.shields.io/badge/platform-iOS-9cf.svg">        <img src="https://img.shields.io/badge/Swift-5.2-orange">
  <p align="center">협업을 위한 이슈 관리 어플리케이션</p>
 </p>
 
